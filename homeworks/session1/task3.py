@@ -1,6 +1,5 @@
-test_string = str(input("Please enter a string for the variable chars: "))
-print("The original string is: " + test_string)
-first_part, second_part = test_string[:len(test_string)//2], test_string[len(test_string)//2:]
-Word = str(input("Please enter a word to insert into the middle of chars: ")) 
-
-print(first_part + Word + second_part)
+str1 = str(input("Please enter a string for the variable chars: "))
+print("The original string is: " + str1)
+first_part, second_part = str1[:len(str1)//2], str1[len(str1)//2:]
+word = str(input("Please enter a work to insert into the middle of the chars:"))
+print(first_part + word + second_part)
